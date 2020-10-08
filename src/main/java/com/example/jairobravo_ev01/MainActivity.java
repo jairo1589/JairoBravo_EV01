@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
         String nombre = txt_nombre.getText().toString();
         String contraseña = txt_contraseña.getText().toString();
 
-        if(nombre.equalsIgnoreCase("android") && contraseña.equalsIgnoreCase("123"))
+        if(nombre.equalsIgnoreCase("android") && contraseña.equalsIgnoreCase("12345"))
         {
             Intent i = new Intent(this, Menu_act.class);
             startActivity(i);
             finish();
-        }else if(nombre.equalsIgnoreCase("Android") && contraseña.equalsIgnoreCase("123"))
+        }else if(nombre.equalsIgnoreCase("Android") && contraseña.equalsIgnoreCase("12345"))
         {
             Intent i = new Intent(this, Menu_act.class);
             startActivity(i);
